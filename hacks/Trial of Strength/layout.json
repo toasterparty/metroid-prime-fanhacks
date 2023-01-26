@@ -28,7 +28,9 @@
         "quickpatch": false,
         "skipSplashScreens": false,
         "quiet": false,
-        "suitColors": {},
+        "suitColors": {
+            "phazonDeg": 260
+        },
         "forceFusion": false,
         "visibleBoundingBox": false
     },

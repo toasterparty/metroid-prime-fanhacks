@@ -15,6 +15,7 @@ goto :EOF
 
 :install
 set INPUT_ISO=%1
+patcher.exe --profile layout.json --input-iso %INPUT_ISO%
 pause
 
 goto :EOF
@@ -24,7 +25,7 @@ goto :EOF
 Add-Type -AssemblyName System.Windows.Forms
 $f = new-object Windows.Forms.OpenFileDialog
 $f.InitialDirectory = "."
-$f.Filter = "Randovania Game (*.rdvgame)|*.rdvgame|All Files (*.*)|*.*"
+$f.Filter = "Metroid Prime (*.iso)|*.iso|All Files (*.*)|*.*"
 $f.ShowHelp = $false
 $f.Multiselect = $false
 [void]$f.ShowDialog()
