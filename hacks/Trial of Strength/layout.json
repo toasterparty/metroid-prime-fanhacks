@@ -56,7 +56,7 @@
         "shufflePickupPosAllRooms": false,
         "removeVanillaBlastShields": true,
         "startingRoom": "Tallon:Landing Site",
-        "startingMemo": "Emergency SOS beacon received. Origin point has been triangulated to planet Tallon IV in system FS-176. Navigation systems aligned to coordinates. Source of trasnmission unknown. Exercise caution.",
+        "startingMemo": "Emergency SOS beacon received. Origin point has been triangulated to planet Tallon IV in system FS-176. Navigation systems aligned to coordinates. Source of transmission unknown. Exercise caution.",
         "warpToStart": false,
         "springBall": false,
         "hallOfTheEldersBombSlotCovers": {
