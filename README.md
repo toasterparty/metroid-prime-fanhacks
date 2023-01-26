@@ -16,7 +16,7 @@ A growing collection of fan hacks for Metroid Prime 1 (GC): Inspired by randomiz
 
 4) Double click `patch.bat` and select your Metroid Prime ISO when prompted
 
-5) Drag and drop the freshly genereated rom file into Dolphin's main window, or load onto storage media and open with Nintendont
+5) Drag and drop the freshly generated rom file into Dolphin's main window, or load onto storage media and open with Nintendont
 
 ## Features
 
@@ -43,7 +43,7 @@ There currently is not any good documentation on how to get started with develop
 
 If you have programming and open source project experience, you might intuit how it's done using the [Source Code](https://github.com/toasterparty/randomprime/blob/randovania/src/patch_config.rs#L636..L658), [Release Notes](https://github.com/randovania/py-randomprime/releases), and [Looking at Examples](https://github.com/toasterparty/prime-practice-world/blob/main/prime-practice-world.json).
 
-There's also work-in-progress [GUI Program](https://github.com/meriKatt/Plandomizer-GUI/) if that you can try your luck with.
+There's also work-in-progress [GUI Program](https://github.com/meriKatt/Plandomizer-GUI/) that you can try your luck with.
 
 ### Where's the community at?
 
