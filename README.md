@@ -10,7 +10,13 @@ A growing collection of fan hacks for Metroid Prime 1 (GC) - Heavily inspired by
 
 1) Browse the [hacks](./hacks/) directory and decide which fan hack you want to play
 
-2) 
+2) Read the readme, and download the fan hack installer
+
+3) Extract the contents of the fan hack into a folder
+
+4) Double click `patch.bat` and select your Metroid Prime ISO when prompted
+
+5) Drag and drop the freshly genereated rom file into Dolphin's main window, or load onto storage media and open with Nintendont
 
 ## Features
 
