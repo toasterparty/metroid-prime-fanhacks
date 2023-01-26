@@ -1,6 +1,6 @@
 # Trial of Strength
 
-- [Download]()
+- [Download](https://github.com/toasterparty/metroid-prime-fanhacks/releases/download/trial-of-strength-v1.0/Trial.of.Strength.v1.0.zip)
 - [Spoiler](spoiler.md)
 
 ### Credits
