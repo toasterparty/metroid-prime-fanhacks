@@ -27,7 +27,7 @@ I have attempted to adhere pretty closely to the Intermediate trick logic in Ran
 
 There are incredible use-cases for certain items that commonly get ignored in speedruns and randomizer. It will be incredibly difficult to skip them. There is also lots of custom geometry. This is often done to assist with the route and changes that have been made, or to keep the player safe where it can get unfairly dangerous.
 
-Some amount of damage runs are required. For those not as comfrtable with them, an ample amount of energy tanks have been scattered around Tallon IV to accommodate this. You're also given convenient access to save stations.
+Some amount of damage runs are required. For those not as comfortable with them, an ample amount of energy tanks have been scattered around Tallon IV to accommodate this. You're also given convenient access to save stations.
 
 And if you're having trouble getting a lock-on in certain puzzles, hold R and buffer the control stick input to look up (pull back on the control stick) before you release L.
 
