@@ -39,11 +39,11 @@ If it ran on the GameCube it's supported. Scan dashing is added back in to later
 
 ### I want to make my own fan hack, where can I get started?
 
-There currently is not any good documentation on how to get started with developing against the randomprime patcher API, or how to design, test and release a fan hack. Depending on the demand, I will create materials to help people get started.
+There currently is no good documentation on how to get started with developing against the randomprime patcher API, or how to design, test and release a fan hack. Depending on the demand, I may create materials to help people get started.
 
 If you have programming and open source project experience, you might intuit how it's done using the [Source Code](https://github.com/toasterparty/randomprime/blob/randovania/src/patch_config.rs#L636..L658), [Release Notes](https://github.com/randovania/py-randomprime/releases), and [Looking at Examples](https://github.com/toasterparty/prime-practice-world/blob/main/prime-practice-world.json).
 
-There's also work-in-progress [GUI Program](https://github.com/meriKatt/Plandomizer-GUI/) that you can try your luck with.
+There's also a work-in-progress [GUI Program](https://github.com/meriKatt/Plandomizer-GUI/) that you can try your luck with.
 
 ### Where's the community at?
 
@@ -55,4 +55,4 @@ That's not a question, but dm me and I'll see about updating this project to be 
 
 ### How does it work?
 
-My fork of [randomprime](https://github.com/toasterparty/randomprime/tree/randovania), the Rust-powered open source patcher used by [Randovania](https://github.com/randovania/randovania), includes a bunch of optional features not utilized by randomizer. Fan hacks use the same patcher API to create their own custom layout descriptions. 
+My fork of [randomprime](https://github.com/toasterparty/randomprime/tree/randovania), the Rust-powered open source patcher used by [Randovania](https://github.com/randovania/randovania), includes a bunch of optional features not utilized by randomizer. Fan hacks use the same patcher API to create their own custom layout descriptions. The patcher copies over an existing ROMs contents into a new one, making modifications at specific file addresses as it does. This means that *there is zero copyright protected contents being shared, and you should take care to do the same.* 
