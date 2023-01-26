@@ -1,6 +1,6 @@
 # Metroid Prime Fan Hacks
 
-A growing collection of fan hacks for Metroid Prime 1 (GC) - Heavily inspired by randomizer
+A growing collection of fan hacks for Metroid Prime 1 (GC): Inspired by randomizer - Evolved from plandomizer
 
 ## How to play
 
@@ -20,14 +20,14 @@ A growing collection of fan hacks for Metroid Prime 1 (GC) - Heavily inspired by
 
 ## Features
 
-Fan hack authors have access to a large variety of features which include (but is not limited to) the following:
+Fan hack authors have access to a large variety of features which includes (but is not limited to) the following:
 
 - Custom Items/Locations
 - Custom Elevators
 - Custom Doors
 - Custom Blast Shields
 - Place custom objects such as water, platforms, boxes, grapple points
-- Remove vanilla objects
+- Remove objects
 - Edit in-game text
 - Quality of Life improvements and bugfixes
 
@@ -55,4 +55,4 @@ That's not a question, but dm me and I'll see about updating this project to be 
 
 ### How does it work?
 
-My fork of [randomprime](https://github.com/toasterparty/randomprime/tree/randovania), the Rust-powered open source patcher used by [Randovania](https://github.com/randovania/randovania), includes a bunch of optional features not utilized by randomizer. Fan hacks use the same patcher API used by randovania to create their own custom.
+My fork of [randomprime](https://github.com/toasterparty/randomprime/tree/randovania), the Rust-powered open source patcher used by [Randovania](https://github.com/randovania/randovania), includes a bunch of optional features not utilized by randomizer. Fan hacks use the same patcher API to create their own custom layout descriptions. 
