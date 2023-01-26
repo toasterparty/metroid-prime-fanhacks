@@ -39,7 +39,7 @@ If it ran on the GameCube it's supported. Scan dashing is added back in to later
 
 ### I want to make my own fan hack, where can I get started?
 
-There currently is no good documentation on how to get started with developing against the randomprime patcher API, or how to design, test and release a fan hack. Depending on the demand, I may create materials to help people get started.
+There currently isn't any good documentation on how to develop using the randomprime patcher API, or how to design, test and release a fan hack. Depending on the demand, I may create materials to help people get started.
 
 If you have programming and open source project experience, you might intuit how it's done using the [Source Code](https://github.com/toasterparty/randomprime/blob/randovania/src/patch_config.rs#L636..L658), [Release Notes](https://github.com/randovania/py-randomprime/releases), and [Looking at Examples](https://github.com/toasterparty/prime-practice-world/blob/main/prime-practice-world.json).
 
