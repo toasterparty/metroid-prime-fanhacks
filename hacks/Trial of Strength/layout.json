@@ -3128,6 +3128,9 @@
                             "blastShieldType": "Ice Spreader"
                         }
                     },
+                    "audioOverride": {
+                        "1311466": "/audio/crash-ship-3L.dsp|/audio/crash-ship-3R.dsp"
+                    },
                     "superheated": true,
                     "removeWater": true,
                     "liquids": [
@@ -3218,6 +3221,9 @@
                             "shieldType": "Blue",
                             "blastShieldType": "None"
                         }
+                    },
+                    "audioOverride": {
+                        "1507946": "/audio/crash-ship-3L.dsp|/audio/crash-ship-3R.dsp"
                     },
                     "superheated": true,
                     "removeWater": true,
