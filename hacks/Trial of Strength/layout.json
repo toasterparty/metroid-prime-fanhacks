@@ -3762,8 +3762,8 @@
                             "type": "Missile",
                             "scanText": "Missile",
                             "hudmemoText": "Missile acquired!",
-                            "currIncrease": 1,
-                            "maxIncrease": 1,
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
                             "respawn": false,
                             "model": "Missile"
                         }
@@ -6769,7 +6769,7 @@
                             "currIncrease": 1,
                             "maxIncrease": 1,
                             "respawn": false,
-                            "model": "Missile"
+                            "model": "Energy Tank"
                         },
                         {
                             "type": "Missile",
