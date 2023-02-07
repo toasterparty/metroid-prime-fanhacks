@@ -35,7 +35,7 @@
         "visibleBoundingBox": false
     },
     "gameConfig": {
-        "resultsString": "Trial of Strength 1.1",
+        "resultsString": "Trial of Strength 1.2",
         "bossSizes": {
             "parasiteQueen": 1.35,
             "incineratorDrone": 1.25,
@@ -128,11 +128,11 @@
             "gameNameFull": "Metroid Prime: Trial of Strength",
             "description": "Trial of Strength"
         },
-        "mainMenuMessage": "Trial of Strength 1.1",
+        "mainMenuMessage": "Trial of Strength 1.2",
         "creditsString": "&push;&font=C29C51F1;&main-color=#3BEC94;Trial of Strength&pop;\n&push;&font=C29C51F1;&main-color=#3BEC94;Major Item Locations&pop;\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Wave Beam&pop;\nTallon Overworld - Root Cave\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Ice Beam&pop;\nChozo Ruins - Hall of the Elders\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Plasma Beam&pop;\nPhendrana Drifts - Gravity Chamber\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Missile Launcher&pop;\nChozo Ruins - Main Plaza\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Grapple Beam&pop;\nChozo Ruins - Watery Hall\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Scan Visor&pop;\nTallon Overworld - Artifact Temple\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Thermal Visor&pop;\nPhendrana Drifts - Chapel of the Elders\n\n&push;&font=C29C51F1;&main-color=#3BEC94;X-Ray Visor&pop;\nPhazon Mines - Ventilation Shaft\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Space Jump Boots&pop;\nTallon Overworld - Arbor Chamber\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Morph Ball&pop;\nChozo Ruins - Hive Totem\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Morph Ball Bomb&pop;\nPhazon Mines - Central Dynamo\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Boost Ball&pop;\nPhazon Mines - Metroid Quarantine A\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Spider Ball&pop;\nChozo Ruins - Main Plaza\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Power Bomb&pop;\nPhendrana Drifts - Phendrana Shorelines\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Varia Suit&pop;\nMagmoor Caverns - Plasma Processing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Gravity Suit&pop;\nTallon Overworld - Biohazard Containment\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Phazon Suit&pop;\nPhazon Mines - Phazon Mining Tunnel\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Super Missile&pop;\nTallon Overworld - Life Grove\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Wavebuster&pop;\nChozo Ruins - Sunchamber\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Ice Spreader&pop;\nPhendrana Drifts - Quarantine Cave\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Flamethrower&pop;\nPhazon Mines - Metroid Quarantine B\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Chozo&pop;\nChozo Ruins - Main Plaza\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Elder&pop;\nPhendrana Drifts - Security Cave\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Lifegiver&pop;\nPhazon Mines - Storage Depot A\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Nature&pop;\nChozo Ruins - Sunchamber\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Newborn&pop;\nPhendrana Drifts - Phendrana Canyon\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Spirit&pop;\nPhendrana Drifts - Control Tower\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Strength&pop;\nPhazon Mines - Elite Quarters\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Sun&pop;\nChozo Ruins - Tower of Light\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Truth&pop;\nMagmoor Caverns - Triclops Pit\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Warrior&pop;\nMagmoor Caverns - Warrior Shrine\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Wild&pop;\nTallon Overworld - Great Tree Chamber\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of World&pop;\nPhendrana Drifts - Chozo Ice Temple\n\n\n\n\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Major thank you to toasterparty for all the work he's done patcher-side to make all of this possible, and for the support to me in making this.\nThanks, Rando Dad.&pop;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnd thank you for playing!",
         "artifactHints": {
             "Artifact of Chozo": "The last hope of the &push;&main-color=#f76007;Chozo&pop; was gathered in our hour of peril and &push;&main-color=#3BEC94;planted as a seed&pop;, so that it may take form and cast shade from the sun in a great &push;&main-color=#3BEC94;plaza&pop;.",
-            "Artifact of Nature": "&push;&main-color=#f76007;Nature&pop; is said to reclaim us all in time, even in spirit. Our brethren shall uphold this idea, even in death, where the &push;&main-color=#3BEC94;sun&pop; shines eternal.",
+            "Artifact of Nature": "&push;&main-color=#f76007;Nature&pop; is said to reclaim us all in time, even in spirit. Our bretheren shall uphold this idea, even in death, where the &push;&main-color=#3BEC94;sun&pop; shines eternal.",
             "Artifact of Sun": "The &push;&main-color=#f76007;Sun&pop; brings &push;&main-color=#3BEC94;light&pop; and life to us all. May this Artifact feel it on all sides atop our highest &push;&main-color=#3BEC94;tower&pop; past a shrine in our home.",
             "Artifact of World": "The Newborn had a fascination with a man who held the whole &push;&main-color=#f76007;World&pop; in his &push;&main-color=#3BEC94;hands&pop; during her youth. In hopes of rekindling this nostalgia, those hands have been encased in &push;&main-color=#3BEC94;ice&pop; to cherish it.",
             "Artifact of Spirit": "A &push;&main-color=#f76007;Spirit&pop; true to itself cannot be weighed down. Let your spirit too become &push;&main-color=#3BEC94;weightless&pop; and rise to the top of this frigid &push;&main-color=#3BEC94;tower&pop;.",
@@ -484,7 +484,10 @@
                             "shieldType": "Plasma",
                             "blastShieldType": "None"
                         }
-                    }
+                    },
+                    "deleteIds": [
+                        327909
+                    ]
                 },
                 "Subchamber One": {
                     "pickups": [],
@@ -508,7 +511,10 @@
                 },
                 "Metroid Prime Lair": {
                     "pickups": [],
-                    "doors": {}
+                    "doors": {},
+                    "deleteIds": [
+                        721372
+                    ]
                 }
             }
         },
@@ -800,7 +806,7 @@
                         {
                             "type": "Missile",
                             "scanText": "Shiny Missile Expansion. Provides 5 Missiles.",
-                            "hudmemoText": "Nice platforming! Shiny Missile 3 of 3 located!",
+                            "hudmemoText": "Nice platforming! Shiny Missile 3 of 4 located!",
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
@@ -1623,7 +1629,7 @@
                         {
                             "type": "Artifact of Spirit",
                             "scanText": "Artifact of Spirit",
-                            "hudmemoText": "Artiface of Spirit acquired!",
+                            "hudmemoText": "Artifact of Spirit acquired!",
                             "currIncrease": 1,
                             "maxIncrease": 1,
                             "respawn": false,
@@ -2245,7 +2251,22 @@
                     ]
                 },
                 "Map Facility": {
-                    "pickups": [],
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Shiny Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Shiny Missile Expansion 4 of 4 acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Shiny Missile",
+                            "position": [
+                                -36.452423,
+                                -126.570892,
+                                1.450147
+                            ]
+                        }
+                    ],
                     "doors": {
                         "0": {
                             "shieldType": "Plasma",
@@ -2257,7 +2278,11 @@
                         }
                     },
                     "deleteIds": [
-                        524464
+                        524464,
+                        524585,
+                        524587,
+                        524471,
+                        524624
                     ]
                 },
                 "Main Ventilation Shaft Section F": {
@@ -2479,7 +2504,7 @@
                                 17.90
                             ],
                             "scale": [
-                                60.98,
+                                64.98,
                                 169.11,
                                 41.69
                             ]
@@ -3493,25 +3518,58 @@
                     }
                 },
                 "Ore Processing": {
-                    "pickups": [],
+                    "pickups": [
+                        {
+                            "type": "Charge Beam",
+                            "scanText": "Charge Beam",
+                            "hudmemoText": "Charge Beam acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Charge Beam",
+                            "position": [
+                                109.4235,
+                                167.2229,
+                                48.684904
+                            ]
+                        }
+                    ],
                     "doors": {
                         "0": {
                             "shieldType": "Ice",
                             "blastShieldType": "None"
                         },
                         "1": {
-                            "shieldType": "Wave",
+                            "shieldType": "Disabled",
                             "blastShieldType": "None"
                         },
                         "2": {
-                            "shieldType": "Wave",
+                            "shieldType": "Bombs",
                             "blastShieldType": "None"
                         },
                         "3": {
-                            "shieldType": "Wave",
+                            "shieldType": "Charge Beam",
                             "blastShieldType": "None"
                         }
-                    }
+                    },
+                    "lockOnPoints": [
+                        {
+                            "position": [
+                                115.463501,
+                                159.352905,
+                                35.554905
+                            ],
+                            "isGrapple": true
+                        },
+                        {
+                            "position": [
+                                119.043495,
+                                157.752899,
+                                51.074905
+                            ],
+                            "isGrapple": true
+                        }
+                    ]
                 },
                 "Mine Security Station": {
                     "pickups": [],
@@ -3544,20 +3602,10 @@
                     }
                 },
                 "Storage Depot B": {
-                    "pickups": [
-                        {
-                            "type": "Charge Beam",
-                            "scanText": "Charge Beam",
-                            "hudmemoText": "Charge Beam acquired!",
-                            "currIncrease": 1,
-                            "maxIncrease": 1,
-                            "respawn": false,
-                            "model": "Charge Beam"
-                        }
-                    ],
+                    "pickups": [],
                     "doors": {
                         "0": {
-                            "shieldType": "Charge",
+                            "shieldType": "Disabled",
                             "blastShieldType": "None"
                         }
                     }
@@ -3761,7 +3809,7 @@
                         {
                             "type": "Missile",
                             "scanText": "Missile",
-                            "hudmemoText": "Missile acquired!",
+                            "hudmemoText": "Missile expansion acquired!",
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
@@ -3800,7 +3848,8 @@
                         }
                     },
                     "deleteIds": [
-                        1311612
+                        1311612,
+                        1312049
                     ]
                 },
                 "Transport Access": {
@@ -4312,7 +4361,15 @@
                             100
                         ],
                         "keepOriginal": false
-                    }
+                    },
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [-20.126305, -103.756256, -166.162079],
+                            "scale": [186.369995, 100.0,
+                            11.04]
+                        }
+                    ]
                 },
                 "Metroid Quarantine A": {
                     "pickups": [
@@ -4387,7 +4444,15 @@
                             100
                         ],
                         "keepOriginal": false
-                    }
+                    },
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [100.413086, -67.208542, -157.384903],
+                            "scale": [47.209999, 40.0,
+                            9.88]
+                        }
+                    ]
                 },
                 "Save Station Mines C": {
                     "pickups": [],
@@ -4501,7 +4566,15 @@
                             100
                         ],
                         "keepOriginal": false
-                    }
+                    },
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [135.980026, 33.946205, -164.419983],
+                            "scale": [75.0, 155.0,
+                            9.9]
+                        }
+                    ]
                 },
                 "Elevator B": {
                     "pickups": [],
@@ -4700,7 +4773,15 @@
                             100
                         ],
                         "keepOriginal": false
-                    }
+                    },
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [129.755936, 144.053665, -169.861115],
+                            "scale": [25.0, 25.0,
+                            13.01]
+                        }
+                    ]
                 },
                 "Fungal Hall Access": {
                     "pickups": [
@@ -4744,7 +4825,15 @@
                             100
                         ],
                         "keepOriginal": false
-                    }
+                    },
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [155.662491, 354.112976, -170.062057],
+                            "scale": [42.18, 49.439999,
+                            10.0]
+                        }
+                    ]
                 },
                 "Fungal Hall A": {
                     "pickups": [],
@@ -4778,7 +4867,15 @@
                             100
                         ],
                         "keepOriginal": false
-                    }
+                    },
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [131.601547, 249.20134, -171.548355],
+                            "scale": [80.0, 160.0,
+                            12.0]
+                        }
+                    ]
                 }
             }
         },
@@ -4842,7 +4939,7 @@
                         {
                             "type": "Missile",
                             "scanText": "Shiny Missile Expansion. Provides 5 Missiles.",
-                            "hudmemoText": "Gully Secret! Shiny Missile 2 of 3 located!",
+                            "hudmemoText": "Gully Secret! Shiny Missile 2 of 4 located!",
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
@@ -5396,6 +5493,11 @@
                         }
                     },
                     "removeWater": true,
+                    "platforms": [
+                        {
+                            "position": [-109.080399, 354.795288, -66.466599]
+                        }
+                    ],
                     "deleteIds": [
                         1769496,
                         1769502,
@@ -5418,7 +5520,12 @@
                         1769650,
                         1769651,
                         1769652,
-                        1769653
+                        1769653,
+                        1769480,
+                        1769479,
+                        1769478,
+                        1769549,
+                        1769539
                     ]
                 },
                 "Savestation": {
@@ -5465,23 +5572,7 @@
                             "shieldType": "Wave",
                             "blastShieldType": "None"
                         }
-                    },
-                    "removeWater": true,
-                    "liquids": [
-                        {
-                            "type": "water",
-                            "position": [
-                                -141.88,
-                                265.25,
-                                -65.5
-                            ],
-                            "scale": [
-                                63.6,
-                                47.47,
-                                16.21
-                            ]
-                        }
-                    ]
+                    }
                 },
                 "Deck Beta Security Hall": {
                     "pickups": [],
@@ -5723,7 +5814,7 @@
                         2752635,
                         2752639,
                         2752637,
-                        2735120
+                        2753120
                     ],
                     "pickups": [
                         {
@@ -6208,7 +6299,6 @@
                         1376302,
                         1376291,
                         1376262,
-                        1376281,
                         1376320,
                         1376308,
                         1376314,
@@ -6661,7 +6751,7 @@
                     "doors": {
                         "0": {
                             "shieldType": "Ice",
-                            "blastShieldType": "None"
+                            "blastShieldType": "Ice Spreader"
                         },
                         "1": {
                             "shieldType": "Ice",
@@ -6909,11 +6999,11 @@
                     "doors": {
                         "0": {
                             "shieldType": "Blue",
-                            "blastShieldType": "None"
+                            "blastShieldType": "Super Missile"
                         },
                         "1": {
                             "shieldType": "Blue",
-                            "blastShieldType": "None"
+                            "blastShieldType": "Super Missile"
                         }
                     }
                 },
@@ -6935,7 +7025,7 @@
                         {
                             "type": "Missile",
                             "scanText": "Shiny Missile Expansion. Provides 5 Missiles.",
-                            "hudmemoText": "SECRET TUNNEL! Shiny Missile 1 of 3 located!",
+                            "hudmemoText": "SECRET TUNNEL! Shiny Missile 1 of 4 located!",
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
@@ -7065,7 +7155,7 @@
         }
     },
     "inputIso": "prime.iso",
-    "outputIso": "Prime Plandomizer - Trial of Strength.iso",
+    "outputIso": "Metroid Prime - Trial of Strength.iso",
     "strg": {
         "1363007955": [
             "You can't help but feel like something is missing from this location..."
@@ -7075,6 +7165,24 @@
         ],
         "2566867559": [
             "This pillar appears to have large stress fractures on its surface, but seems to be structurally sound otherwise."
+        ],
+        "2844810193": [
+            "The field covering this slot is comprised of plasma-based energy."
+        ],
+        "860296596": [
+            "The field covering this slot is comprised of an erratic energy wavelength."
+        ],
+        "311650374": [
+            "The field covering this slot has temperature qualities similar to ice."
+        ],
+        "2798375000": [
+            "The field covering this slot is comprised of an energy signal that appears to be affected by heat."
+        ],
+        "1748347101": [
+            "The field covering this slot is comprised of a wavelike energy signal."
+        ],
+        "2193104567": [
+            "The field covering this slot is comprised of an energy signal that appears to be affected by cold."
         ]
     }
 }
