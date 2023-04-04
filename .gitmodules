@@ -1,3 +1,4 @@
 [submodule "hacks/New Path"]
 	path = hacks/New Path
 	url = git@github.com:JeffGainsNGames/MP1-New-Path.git
+    branch = main
