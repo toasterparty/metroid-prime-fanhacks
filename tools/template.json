@@ -1,5 +1,5 @@
 {
-    "seed": 1234567890,
+    "seed": 123,
     "preferences": {
         "defaultGameOptions": {
             "screenBrightness": 5,
@@ -57,7 +57,7 @@
         "staggeredSuitDamage": true,
         "heatDamagePerSec": 10.0,
         "autoEnabledElevators": false,
-        "multiworldDolPatches": true,
+        "multiworldDolPatches": false,
         "disableItemLoss": true,
         "startingItems": {
             "powerBeam": true,
@@ -94,17 +94,17 @@
             "Unknown Item 1": 65536
         },
         "mainPlazaDoor": true,
-        "backwardsFrigate": false,
-        "backwardsLabs": false,
-        "backwardsUpperMines": false,
+        "backwardsFrigate": true,
+        "backwardsLabs": true,
+        "backwardsUpperMines": true,
         "backwardsLowerMines": false,
-        "phazonEliteWithoutDynamo": false,
+        "phazonEliteWithoutDynamo": true,
         "gameBanner": {
-            "gameName": "Metroid Prime: Randomizer",
-            "gameNameFull": "Metroid Prime: Randomizer - Seed Hash Here",
-            "description": "Seed Hash: Cursed Seeds Words"
+            "gameName": "My Plando",
+            "gameNameFull": "My Plando",
+            "description": "Plando by Me"
         },
-        "mainMenuMessage": "template randomprime file",
+        "mainMenuMessage": "main menu message here\nsecond line",
         "creditsString": "&push;&font=C29C51F1;&main-color=#89D6FF;Major Item Locations&pop;\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Wave Beam&pop;\nPhazon Mines - Metroid Quarantine A\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Ice Beam&pop;\nPhazon Mines - Ventilation Shaft\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Plasma Beam&pop;\nPhazon Mines - Central Dynamo\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Missile Launcher&pop;\nTallon Overworld - Transport Tunnel B\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Grapple Beam&pop;\nTallon Overworld - Landing Site\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Thermal Visor&pop;\nPhendrana Drifts - Ice Ruins East\n\n&push;&font=C29C51F1;&main-color=#33ffd6;X-Ray Visor&pop;\nMagmoor Caverns - Warrior Shrine\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Space Jump Boots&pop;\nTallon Overworld - Frigate Crash Site\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Morph Ball&pop;\nChozo Ruins - Ruined Gallery\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Morph Ball Bomb&pop;\nChozo Ruins - Dynamo\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Boost Ball&pop;\nChozo Ruins - Watery Hall\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Spider Ball&pop;\nChozo Ruins - Ruined Gallery\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Power Bomb&pop;\nMagmoor Caverns - Fiery Shores\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Varia Suit&pop;\nChozo Ruins - Hive Totem\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Gravity Suit&pop;\nChozo Ruins - Ruined Shrine\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Phazon Suit&pop;\nTallon Overworld - Hydro Access Tunnel\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Super Missile&pop;\nPhazon Mines - Phazon Processing Center\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Wavebuster&pop;\nChozo Ruins - Main Plaza\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Ice Spreader&pop;\nChozo Ruins - Tower of Light\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Flamethrower&pop;\nChozo Ruins - Ruined Nursery\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Elder&pop;\nPhendrana Drifts - Research Lab Aether\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Lifegiver&pop;\nMagmoor Caverns - Magmoor Workstation\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Strength&pop;\nChozo Ruins - Crossway\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Truth&pop;\nPhendrana Drifts - Control Tower\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Warrior&pop;\nPhazon Mines - Main Quarry\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Wild&pop;\nPhendrana Drifts - Quarantine Cave",
         "artifactHints": {
             "Artifact of Chozo": "&push;&main-color=#c300ff;Artifact of Chozo&pop; is located in &push;&main-color=#89a1ff;Phendrana Drifts - Quarantine Cave&pop;.",
@@ -119,139 +119,7 @@
             "Artifact of Wild": "&push;&main-color=#c300ff;Artifact of Wild&pop; is located in &push;&main-color=#89a1ff;Phendrana Drifts - Quarantine Cave&pop;.",
             "Artifact of Lifegiver": "&push;&main-color=#c300ff;Artifact of Lifegiver&pop; is located in &push;&main-color=#89a1ff;Phendrana Drifts - Quarantine Cave&pop;.",
             "Artifact of Warrior": "&push;&main-color=#c300ff;Artifact of Warrior&pop; is located in &push;&main-color=#89a1ff;Phendrana Drifts - Quarantine Cave&pop;."
-        },
-        "artifactTempleLayerOverrides": {
-            "Artifact of Truth": true,
-            "Artifact of Strength": true,
-            "Artifact of Elder": true,
-            "Artifact of Wild": true,
-            "Artifact of Lifegiver": true,
-            "Artifact of Warrior": true,
-            "Artifact of Chozo": true,
-            "Artifact of Nature": true,
-            "Artifact of Sun": true,
-            "Artifact of World": true,
-            "Artifact of Spirit": true,
-            "Artifact of Newborn": true
-        },
-        "updateHintStateReplacement": [
-            148,
-            33,
-            255,
-            204,
-            124,
-            8,
-            2,
-            166,
-            144,
-            1,
-            0,
-            56,
-            191,
-            193,
-            0,
-            44,
-            124,
-            127,
-            27,
-            120,
-            136,
-            159,
-            0,
-            2,
-            44,
-            4,
-            0,
-            0,
-            64,
-            130,
-            0,
-            24,
-            187,
-            193,
-            0,
-            44,
-            128,
-            1,
-            0,
-            56,
-            124,
-            8,
-            3,
-            166,
-            56,
-            33,
-            0,
-            52,
-            78,
-            128,
-            0,
-            32,
-            63,
-            192,
-            128,
-            4,
-            99,
-            222,
-            77,
-            140,
-            56,
-            128,
-            1,
-            128,
-            124,
-            4,
-            247,
-            172,
-            44,
-            4,
-            0,
-            0,
-            56,
-            132,
-            255,
-            224,
-            64,
-            130,
-            255,
-            244,
-            124,
-            0,
-            4,
-            172,
-            76,
-            0,
-            1,
-            44,
-            56,
-            192,
-            0,
-            0,
-            152,
-            223,
-            0,
-            2,
-            187,
-            193,
-            0,
-            44,
-            128,
-            1,
-            0,
-            56,
-            124,
-            8,
-            3,
-            166,
-            56,
-            33,
-            0,
-            52,
-            78,
-            128,
-            0,
-            32
-        ]
+        }
     },
     "tweaks": {},
     "levelData": {
@@ -395,7 +263,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -405,7 +273,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -468,7 +336,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -492,7 +360,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -516,7 +384,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -526,7 +394,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -577,7 +445,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -597,7 +465,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -629,7 +497,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -718,7 +586,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -742,7 +610,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -779,7 +647,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -820,7 +688,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -848,7 +716,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -962,7 +830,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -986,7 +854,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1010,7 +878,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1159,7 +1027,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -1169,7 +1037,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1210,7 +1078,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -1220,7 +1088,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1244,7 +1112,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1264,7 +1132,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1444,7 +1312,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1473,7 +1341,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1510,7 +1378,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1543,7 +1411,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1558,7 +1426,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1578,7 +1446,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1602,7 +1470,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -1612,7 +1480,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1675,7 +1543,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1708,7 +1576,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1819,7 +1687,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1873,7 +1741,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1948,7 +1816,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -1994,7 +1862,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2014,7 +1882,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -2024,7 +1892,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2061,7 +1929,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2115,7 +1983,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2139,7 +2007,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2193,7 +2061,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2243,7 +2111,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2267,7 +2135,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2330,7 +2198,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2358,7 +2226,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2417,7 +2285,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2467,7 +2335,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2491,7 +2359,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2536,7 +2404,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2581,7 +2449,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2627,7 +2495,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2685,7 +2553,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2713,7 +2581,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2737,7 +2605,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2774,7 +2642,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2794,7 +2662,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2848,7 +2716,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2871,7 +2739,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2931,7 +2799,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2963,7 +2831,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -2991,7 +2859,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3033,7 +2901,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3043,7 +2911,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3085,7 +2953,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3095,7 +2963,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3105,7 +2973,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3115,7 +2983,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3169,7 +3037,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3184,7 +3052,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3194,7 +3062,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3204,7 +3072,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3232,7 +3100,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3247,7 +3115,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3298,7 +3166,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3322,7 +3190,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3359,7 +3227,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3383,7 +3251,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3451,7 +3319,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3471,7 +3339,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3481,7 +3349,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3513,7 +3381,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3546,7 +3414,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3600,7 +3468,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3624,7 +3492,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3634,7 +3502,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3654,7 +3522,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3691,7 +3559,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3701,7 +3569,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3764,7 +3632,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3774,7 +3642,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3807,7 +3675,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3817,7 +3685,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3832,7 +3700,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         },
                         {
@@ -3842,7 +3710,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3884,7 +3752,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3916,7 +3784,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -3966,7 +3834,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
@@ -4021,7 +3889,7 @@
                             "currIncrease": 5,
                             "maxIncrease": 5,
                             "respawn": false,
-                            "showIcon": true,
+                            "showIcon": false,
                             "model": "Missile"
                         }
                     ],
