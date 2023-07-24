@@ -32,7 +32,7 @@ This mod patches the game in minor ways consistent with the vanilla experience. 
 - Changed: Revert changes to damage rates applied after the NTSC release(s)
 - Changed: Item acquisition text no longer pauses the game (i.e. it is non-modal)
 - Fixed: Central Dynamo crash caused by leaving after killing the drone but before solving the maze
-- Fixed: Crash in Phazon Center Access when entering Elite Quarters while Omega Pirate is still alive
+- Fixed: Crash in Processing Center Access when entering Elite Quarters while Omega Pirate is still alive
 - Fixed: Climbing Sun Tower before fighting Flaahgra deleting Varia suit
 - Fixed: Research Lab Aether wall not exploding when entering from reverse
 - Fixed: Soft lock in observatory if pirates are killed before locking doors
