@@ -1,6 +1,6 @@
 # Metroid Prime 0-03
 
-- [Download](https://github.com/toasterparty/metroid-prime-fanhacks/releases/download/trial-of-strength-v1.2/Trial.of.Strength.v1.2.zip)
+- [Download](https://github.com/toasterparty/metroid-prime-fanhacks/releases/download/metroid-prime-0-03-v1.0/Metroid.Prime.0-03.zip)
 
 ## Credits
 
