@@ -1,0 +1,43 @@
+{
+    "forceVanillaLayout": true,
+    "preferences": {
+        "qolGameBreaking": true,
+        "qolCosmetic": true,
+        "qolCutscenes": "skippable",
+        "qolGeneral": true,
+        "qolPickupScans": false,
+        "automaticCrashScreen": true
+    },
+    "gameConfig": {
+        "resultsString": "0-03 v1.0",
+        "startingRoom": "Frigate Orpheon:Exterior Docking Hangar",
+        "warpToStart": false,
+        "springBall": true,
+        "incineratorDroneConfig": {
+            "eyeWaitInitialRandomTime": 0.0,
+            "eyeWaitRandomTime": 0.0,
+            "eyeStayUpRandomTime": 0.0,
+            "resetContraptionRandomTime": 0.0,
+            "eyeWaitInitialMinimumTime": 9.0,
+            "eyeWaitMinimumTime": 19.0,
+            "eyeStayUpMinimumTime": 9.0,
+            "resetContraptionMinimumTime": 4.0
+        },
+        "nonvariaHeatDamage": true,
+        "staggeredSuitDamage": true,
+        "disableItemLoss": false,
+        "mainPlazaDoor": true,
+        "backwardsFrigate": true,
+        "backwardsLabs": true,
+        "backwardsUpperMines": true,
+        "phazonEliteWithoutDynamo": true,
+        "gameBanner": {
+            "gameName": "Metroid Prime",
+            "gameNameFull": "Metroid Prime: 0-03",
+            "description": "0-03 v1.0"
+        },
+        "mainMenuMessage": "0-03 v1.0"
+    },
+    "inputIso": "prime.iso",
+    "outputIso": "Metroid Prime (0-03).iso"
+}
