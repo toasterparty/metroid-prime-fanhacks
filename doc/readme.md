@@ -52,6 +52,10 @@ For your convenience, `patch_quickplay.bat` has been provided which patches the 
 
 ![Enum](./img/2.png)
 
+- Frequently check the **Problems** tab in Visual Studio Code. Since the editor is enriched with the API format, it can inform you about mistakes:
+
+![Problems](./img/3.png)
+
 # Resources
 
 - [Annotated Game Maps w/ Dock Indicies](https://github.com/toasterparty/randomprime/blob/randovania/doc/door_indicies/readme.md)
@@ -70,7 +74,7 @@ For your convenience, `patch_quickplay.bat` has been provided which patches the 
 
 - [Primewatch](https://github.com/MetroidPrimeModding/primewatch2/releases)
 
-- [Trial of Strength](https://github.com/toasterparty/metroid-prime-fanhacks/blob/main/hacks/Trial%20of%20Strength/layout.json) is the fanhack which uses the most patcher features to-date. While not comprehensive, it makes a good reference if you're not understanding something.
+- [Trial of Strength](https://github.com/toasterparty/metroid-prime-fanhacks/blob/main/hacks/Trial%20of%20Strength/layout.json) is the fanhack which uses the most patcher features to-date. While not comprehensive, it makes a good reference if you're not understanding something. Similarly, [Prime Practice World](https://github.com/toasterparty/prime-practice-world/blob/main/prime-practice-world.json) uses a lot of features.
 
 # Distribution
 
