@@ -1,22 +1,24 @@
 # Metroid Prime Fan Hacks
 
-A growing collection of fan hacks for Metroid Prime 1 (GC): Inspired by randomizer - Evolved from plandomizer
+A growing collection of fan hacks for Metroid Prime 1 (GC).
+
+*Inspired by randomizer; Evolved from plandomizer*
+
+## Requirements
+- *Windows 10+
+- Metroid Prime (GC) in ISO format
 
 ## How to play
 
-### Requirements
-- Windows 10+
-- Metroid Prime in ISO format
+1. Browse the [hacks](./hacks/) directory and decide which fan hack you want to play
 
-1) Browse the [hacks](./hacks/) directory and decide which fan hack you want to play
+2. Read the readme, and download the fan hack installer
 
-2) Read the readme, and download the fan hack installer
+3. Extract the contents of the fan hack into a folder
 
-3) Extract the contents of the fan hack into a folder
+4. Double click `patch.bat` and select your Metroid Prime ISO when prompted
 
-4) Double click `patch.bat` and select your Metroid Prime ISO when prompted
-
-5) Drag and drop the freshly generated rom file into Dolphin's main window, or load onto storage media and open with Nintendont
+5. Drag and drop the freshly generated rom file into Dolphin's main window, or load onto storage media and open with Nintendont
 
 ## Features
 
@@ -39,11 +41,7 @@ If it ran on the GameCube it's supported. Scan dashing is added back in to later
 
 ### I want to make my own fan hack, where can I get started?
 
-There currently isn't any good documentation on how to develop using the randomprime patcher API, or how to design, test and release a fan hack. Depending on the demand, I may create materials to help people get started.
-
-If you have programming and open source project experience, you might intuit how it's done using the [Source Code](https://github.com/toasterparty/randomprime/blob/randovania/src/patch_config.rs#L636..L658), [Release Notes](https://github.com/randovania/py-randomprime/releases), and [Looking at Examples](https://github.com/toasterparty/prime-practice-world/blob/main/prime-practice-world.json).
-
-There's also a work-in-progress [GUI Program](https://github.com/meriKatt/Plandomizer-GUI/) that you can try your luck with.
+Start by reading the [Creator's Guide](./doc/readme.md).
 
 ### Where's the community at?
 
@@ -51,8 +49,8 @@ http://discord.gg/WWGcay6
 
 ### I don't use Windows!
 
-That's not a question, but dm me and I'll see about updating this project to be distributable to multiple platforms.
+Use the py-randomprime distributed via `python -m pip install --upgrade py-randomprime` to patch your ISO.
 
 ### How does it work?
 
-My fork of [randomprime](https://github.com/toasterparty/randomprime/tree/randovania), the Rust-powered open source patcher used by [Randovania](https://github.com/randovania/randovania), includes a bunch of optional features not utilized by randomizer. Fan hacks use the same patcher API to create their own custom layout descriptions. The patcher copies the contents of the end user's ROM into a new one, making modifications at specific file addresses as it does. This means that *there is zero copyright protected content being shared, and you should take care to do the same.* 
+My fork of [randomprime](https://github.com/toasterparty/randomprime/tree/randovania), the open source patcher used by [Randovania](https://github.com/randovania/randovania) includes a bunch of optional features not utilized by randomizer. Fan hacks use the same patcher API to create their own custom layout descriptions. The patcher copies the contents of the end user's ROM into a new one, making modifications at specific file addresses as it does. This means that *there is zero copyright protected content being shared and you should take care to do the same.* 
