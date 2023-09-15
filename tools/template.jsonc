@@ -1,5 +1,5 @@
 {
-    "seed": 123,
+    "$schema": "https://toasterparty.github.io/randomprime/randomprime.schema.json",
     "preferences": {
         "defaultGameOptions": {
             "screenBrightness": 5,
@@ -19,25 +19,31 @@
         "qolGameBreaking": true,
         "qolCosmetic": true,
         "qolPickupScans": true,
-        "qolCutscenes": "competitive",
-        "mapDefaultState": "visible",
-        "artifactHintBehavior": null,
+        "qolCutscenes": "Skippable",
+        "mapDefaultState": "Visible",
+        "artifactHintBehavior": "Default",
         "automaticCrashScreen": true,
-        "trilogyDiscPath": null,
         "quickplay": false,
         "quiet": false,
-        "suitColors": {},
+        "suitColors": {
+            "powerDeg": 0,
+            "variaDeg": 0,
+            "gravityDeg": 0,
+            "phazonDeg": 0
+        },
         "forceFusion": false
     },
     "gameConfig": {
         "resultsString": "someone forgot to update this part of the template",
-        "bossSizes": null,
+        "bossSizes": {
+
+        },
         "noDoors": false,
         "shufflePickupPosition": false,
         "shufflePickupPosAllRooms": false,
         "removeVanillaBlastShields": true,
-        "startingRoom": "Tallon:Landing Site",
-        "startingMemo": null,
+        "startingRoom": "Tallon Overworld:Landing Site",
+        "startingMemo": "Starting Memo", // delete line if no starting memo is desired
         "warpToStart": false,
         "springBall": false,
         "incineratorDroneConfig": {
@@ -242,8 +248,8 @@
         },
         "Phendrana Drifts": {
             "transports": {
-                "Phendrana Drifts North\u0000(Phendrana Shorelines)": "Magmoor Caverns West\u0000(Monitor Station)",
-                "Phendrana Drifts South\u0000(Quarantine Cave)": "Magmoor Caverns South\u0000(Magmoor Workstation, Save Station)"
+                "Phendrana Drifts North (Phendrana Shorelines)": "Magmoor Caverns West (Monitor Station)",
+                "Phendrana Drifts South (Quarantine Cave)": "Magmoor Caverns South (Magmoor Workstation, Save Station)"
             },
             "rooms": {
                 "Transport to Magmoor Caverns West": {
@@ -997,7 +1003,7 @@
                     "doors": {
                         "0": {
                             "shieldType": "Blue",
-                            "blastShieldType": "Missiles"
+                            "blastShieldType": "Missile"
                         },
                         "1": {
                             "shieldType": "Blue",
@@ -1261,11 +1267,11 @@
         },
         "Magmoor Caverns": {
             "transports": {
-                "Magmoor Caverns North\u0000(Lava Lake)": "Chozo Ruins North\u0000(Sun Tower)",
-                "Magmoor Caverns West\u0000(Monitor Station)": "Phendrana Drifts North\u0000(Phendrana Shorelines)",
-                "Magmoor Caverns East\u0000(Twin Fires)": "Tallon Overworld West\u0000(Root Cave)",
-                "Magmoor Caverns South\u0000(Magmoor Workstation, Debris)": "Phazon Mines West\u0000(Phazon Processing Center)",
-                "Magmoor Caverns South\u0000(Magmoor Workstation, Save Station)": "Phendrana Drifts South\u0000(Quarantine Cave)"
+                "Magmoor Caverns North (Lava Lake)": "Chozo Ruins North (Sun Tower)",
+                "Magmoor Caverns West (Monitor Station)": "Phendrana Drifts North (Phendrana Shorelines)",
+                "Magmoor Caverns East (Twin Fires)": "Tallon Overworld West (Root Cave)",
+                "Magmoor Caverns South (Magmoor Workstation, Debris)": "Phazon Mines West (Phazon Processing Center)",
+                "Magmoor Caverns South (Magmoor Workstation, Save Station)": "Phendrana Drifts South (Quarantine Cave)"
             },
             "rooms": {
                 "Transport to Chozo Ruins North": {
@@ -1652,8 +1658,8 @@
         },
         "Phazon Mines": {
             "transports": {
-                "Phazon Mines East\u0000(Main Quarry)": "Tallon Overworld South\u0000(Great Tree Hall, Lower)",
-                "Phazon Mines West\u0000(Phazon Processing Center)": "Magmoor Caverns South\u0000(Magmoor Workstation, Debris)"
+                "Phazon Mines East (Main Quarry)": "Tallon Overworld South (Great Tree Hall, Lower)",
+                "Phazon Mines West (Phazon Processing Center)": "Magmoor Caverns South (Magmoor Workstation, Debris)"
             },
             "rooms": {
                 "Transport to Tallon Overworld South": {
@@ -2387,12 +2393,12 @@
         },
         "Tallon Overworld": {
             "transports": {
-                "Tallon Overworld North\u0000(Tallon Canyon)": "Chozo Ruins West\u0000(Main Plaza)",
+                "Tallon Overworld North (Tallon Canyon)": "Chozo Ruins West (Main Plaza)",
                 "Artifact Temple": "Crater Entry Point",
-                "Tallon Overworld East\u0000(Frigate Crash Site)": "Chozo Ruins East\u0000(Reflecting Pool, Save Station)",
-                "Tallon Overworld West\u0000(Root Cave)": "Magmoor Caverns East\u0000(Twin Fires)",
-                "Tallon Overworld South\u0000(Great Tree Hall, Upper)": "Chozo Ruins South\u0000(Reflecting Pool, Far End)",
-                "Tallon Overworld South\u0000(Great Tree Hall, Lower)": "Phazon Mines East\u0000(Main Quarry)"
+                "Tallon Overworld East (Frigate Crash Site)": "Chozo Ruins East (Reflecting Pool, Save Station)",
+                "Tallon Overworld West (Root Cave)": "Magmoor Caverns East (Twin Fires)",
+                "Tallon Overworld South (Great Tree Hall, Upper)": "Chozo Ruins South (Reflecting Pool, Far End)",
+                "Tallon Overworld South (Great Tree Hall, Lower)": "Phazon Mines East (Main Quarry)"
             },
             "rooms": {
                 "Landing Site": {
@@ -2930,10 +2936,10 @@
         },
         "Chozo Ruins": {
             "transports": {
-                "Chozo Ruins West\u0000(Main Plaza)": "Tallon Overworld North\u0000(Tallon Canyon)",
-                "Chozo Ruins North\u0000(Sun Tower)": "Magmoor Caverns North\u0000(Lava Lake)",
-                "Chozo Ruins East\u0000(Reflecting Pool, Save Station)": "Tallon Overworld East\u0000(Frigate Crash Site)",
-                "Chozo Ruins South\u0000(Reflecting Pool, Far End)": "Tallon Overworld South\u0000(Great Tree Hall, Upper)"
+                "Chozo Ruins West (Main Plaza)": "Tallon Overworld North (Tallon Canyon)",
+                "Chozo Ruins North (Sun Tower)": "Magmoor Caverns North (Lava Lake)",
+                "Chozo Ruins East (Reflecting Pool, Save Station)": "Tallon Overworld East (Frigate Crash Site)",
+                "Chozo Ruins South (Reflecting Pool, Far End)": "Tallon Overworld South (Great Tree Hall, Upper)"
             },
             "rooms": {
                 "Transport to Tallon Overworld North": {
