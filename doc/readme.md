@@ -70,6 +70,8 @@ For your convenience, `patch_quickplay.bat` has been provided which patches the 
 
 - [Primewatch](https://github.com/MetroidPrimeModding/primewatch2/releases)
 
+- [Trial of Strength](https://github.com/toasterparty/metroid-prime-fanhacks/blob/main/hacks/Trial%20of%20Strength/layout.json) is the fanhack which uses the most patcher features to-date. While not comprehensive, it makes a good reference if you're not understanding something.
+
 # Distribution
 
 You can simply zip the contents of the folder you created in setup and send it to your friends. ***Please make sure to remove any ISOs from the folder before you do.*** If you would like have it officially released, get in touch with **toasterparty** to see about adding it to this repository.
