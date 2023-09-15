@@ -1,30 +1,17 @@
 {
     "$schema": "https://toasterparty.github.io/randomprime/randomprime.schema.json",
+    "outputIso": "my_romhack.iso",
     "preferences": {
-        "defaultGameOptions": {
-            "screenBrightness": 5,
-            "screenOffsetX": 0,
-            "screenOffsetY": 0,
-            "screenStretch": 0,
-            "soundMode": 1,
-            "sfxVolume": 127,
-            "musicVolume": 127,
-            "visorOpacity": 255,
-            "helmetOpacity": 0,
-            "hudLag": false,
-            "reverseYAxis": false,
-            "rumble": true,
-            "swapBeamControls": false
-        },
         "qolGameBreaking": true,
         "qolCosmetic": true,
         "qolPickupScans": true,
+        "qolGeneral": true,
+        "visibleBoundingBox": false,
         "qolCutscenes": "Skippable",
         "mapDefaultState": "Visible",
         "artifactHintBehavior": "Default",
         "automaticCrashScreen": true,
         "quickplay": false,
-        "quiet": false,
         "suitColors": {
             "powerDeg": 0,
             "variaDeg": 0,
@@ -34,44 +21,43 @@
         "forceFusion": false
     },
     "gameConfig": {
-        "resultsString": "someone forgot to update this part of the template",
-        "bossSizes": {
-
-        },
+        "mainPlazaDoor": true,
+        "backwardsFrigate": true,
+        "backwardsLabs": true,
+        "backwardsUpperMines": true,
+        "backwardsLowerMines": false,
+        "phazonEliteWithoutDynamo": true,
         "noDoors": false,
-        "shufflePickupPosition": false,
-        "shufflePickupPosAllRooms": false,
         "removeVanillaBlastShields": true,
-        "startingRoom": "Tallon Overworld:Landing Site",
-        "startingMemo": "Starting Memo", // delete line if no starting memo is desired
+        "doorOpenMode": "PrimaryBlastShield",
+        "resultsString": "someone forgot to update this part of the template",
         "warpToStart": false,
         "springBall": false,
-        "incineratorDroneConfig": {
-            "eyeWaitInitialRandomTime": 0.0,
-            "eyeWaitRandomTime": 0.0,
-            "eyeStayUpRandomTime": 0.0,
-            "resetContraptionRandomTime": 0.0,
-            "eyeWaitInitialMinimumTime": 8.657428036853762,
-            "eyeWaitMinimumTime": 18.771799326918632,
-            "eyeStayUpMinimumTime": 8.609284192392574,
-            "resetContraptionMinimumTime": 4.299550398757779
-        },
-        "mazeSeeds": [
-            2041669472
-        ],
         "nonvariaHeatDamage": true,
         "staggeredSuitDamage": true,
         "heatDamagePerSec": 10.0,
         "autoEnabledElevators": false,
-        "multiworldDolPatches": false,
-        "disableItemLoss": true,
+        "missileStationPbRefill": true,
+        "patchPowerConduits": false,
+        "phazonDamageModifier": "Default",
+        "phazonDamagePerSec": 0.964,
+        "powerBombArboretumSandstone": false,
+        "requiredArtifactCount": 12,
+        "removeHiveMecha": false,
+        "removeMineSecurityStationLocks": false,
+        "skipRidley": false,
+        "warpToStartDelayS": 3,
+        "enableIceTraps": false,
+        "escapeSequenceCountsUp": false,
+        "startingRoom": "Tallon Overworld:Landing Site",
+        "startingMemo": "Starting Memo", // delete line if no starting memo is desired
         "startingItems": {
             "powerBeam": true,
             "ice": false,
             "wave": false,
             "plasma": false,
             "missiles": 0,
-            "scanVisor": false,
+            "scanVisor": true,
             "bombs": false,
             "powerBombs": 0,
             "flamethrower": false,
@@ -92,23 +78,59 @@
             "energyTanks": 0,
             "wavebuster": false
         },
+        // "startingBeam": "Power",
+        // "startingVisor": "Combat",
         "etankCapacity": 100,
         "itemMaxCapacity": {
             "Energy Tank": 200,
             "Power Bomb": 99,
-            "Missile": 999,
-            "Unknown Item 1": 65536
+            "Missile": 999
         },
-        "mainPlazaDoor": true,
-        "backwardsFrigate": true,
-        "backwardsLabs": true,
-        "backwardsUpperMines": true,
-        "backwardsLowerMines": false,
-        "phazonEliteWithoutDynamo": true,
+        "disableItemLoss": true,
+        "itemLossItems": {
+            "combatVisor": true,
+            "powerBeam": true,
+            "scanVisor": true,
+            "missiles": 0,
+            "energyTanks": 0,
+            "powerBombs": 0,
+            "wave": false,
+            "ice": false,
+            "plasma": false,
+            "charge": false,
+            "morphBall": false,
+            "bombs": false,
+            "spiderBall": false,
+            "boostBall": false,
+            "variaSuit": false,
+            "gravitySuit": false,
+            "phazonSuit": false,
+            "thermalVisor": false,
+            "xray": false,
+            "spaceJump": false,
+            "grapple": false,
+            "superMissile": false,
+            "wavebuster": false,
+            "iceSpreader": false,
+            "flamethrower": false
+        },
+        "incineratorDroneConfig": {
+            "eyeWaitInitialRandomTime": 0.0,
+            "eyeWaitRandomTime": 0.0,
+            "eyeStayUpRandomTime": 0.0,
+            "resetContraptionRandomTime": 0.0,
+            "eyeWaitInitialMinimumTime": 8.657428036853762,
+            "eyeWaitMinimumTime": 18.771799326918632,
+            "eyeStayUpMinimumTime": 8.609284192392574,
+            "resetContraptionMinimumTime": 4.299550398757779
+        },
+        "mazeSeeds": [
+            2041669472
+        ],
         "gameBanner": {
-            "gameName": "My Plando",
-            "gameNameFull": "My Plando",
-            "description": "Plando by Me"
+            "gameName": "My Romhack",
+            "gameNameFull": "My Romhack",
+            "description": "Romhack by Me"
         },
         "mainMenuMessage": "main menu message here\nsecond line",
         "creditsString": "&push;&font=C29C51F1;&main-color=#89D6FF;Major Item Locations&pop;\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Wave Beam&pop;\nPhazon Mines - Metroid Quarantine A\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Ice Beam&pop;\nPhazon Mines - Ventilation Shaft\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Plasma Beam&pop;\nPhazon Mines - Central Dynamo\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Missile Launcher&pop;\nTallon Overworld - Transport Tunnel B\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Grapple Beam&pop;\nTallon Overworld - Landing Site\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Thermal Visor&pop;\nPhendrana Drifts - Ice Ruins East\n\n&push;&font=C29C51F1;&main-color=#33ffd6;X-Ray Visor&pop;\nMagmoor Caverns - Warrior Shrine\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Space Jump Boots&pop;\nTallon Overworld - Frigate Crash Site\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Morph Ball&pop;\nChozo Ruins - Ruined Gallery\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Morph Ball Bomb&pop;\nChozo Ruins - Dynamo\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Boost Ball&pop;\nChozo Ruins - Watery Hall\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Spider Ball&pop;\nChozo Ruins - Ruined Gallery\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Power Bomb&pop;\nMagmoor Caverns - Fiery Shores\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Varia Suit&pop;\nChozo Ruins - Hive Totem\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Gravity Suit&pop;\nChozo Ruins - Ruined Shrine\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Phazon Suit&pop;\nTallon Overworld - Hydro Access Tunnel\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Super Missile&pop;\nPhazon Mines - Phazon Processing Center\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Wavebuster&pop;\nChozo Ruins - Main Plaza\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Ice Spreader&pop;\nChozo Ruins - Tower of Light\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Flamethrower&pop;\nChozo Ruins - Ruined Nursery\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Elder&pop;\nPhendrana Drifts - Research Lab Aether\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Lifegiver&pop;\nMagmoor Caverns - Magmoor Workstation\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Strength&pop;\nChozo Ruins - Crossway\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Truth&pop;\nPhendrana Drifts - Control Tower\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Warrior&pop;\nPhazon Mines - Main Quarry\n\n&push;&font=C29C51F1;&main-color=#33ffd6;Artifact of Wild&pop;\nPhendrana Drifts - Quarantine Cave",
@@ -125,9 +147,16 @@
             "Artifact of Wild": "&push;&main-color=#c300ff;Artifact of Wild&pop; is located in &push;&main-color=#89a1ff;Phendrana Drifts - Quarantine Cave&pop;.",
             "Artifact of Lifegiver": "&push;&main-color=#c300ff;Artifact of Lifegiver&pop; is located in &push;&main-color=#89a1ff;Phendrana Drifts - Quarantine Cave&pop;.",
             "Artifact of Warrior": "&push;&main-color=#c300ff;Artifact of Warrior&pop; is located in &push;&main-color=#89a1ff;Phendrana Drifts - Quarantine Cave&pop;."
+        },
+        "bossSizes": {},
+        "hallOfTheEldersBombSlotCovers": {
+            "ice": "Ice",
+            "plasma": "Plasma",
+            "wave": "Wave"
         }
     },
     "tweaks": {},
+    "strg": {},
     "levelData": {
         "Impact Crater": {
             "transports": {
@@ -263,24 +292,10 @@
                 "Phendrana Shorelines": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -336,14 +351,7 @@
                 "Chozo Ice Temple": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -360,14 +368,7 @@
                 "Ice Ruins West": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -384,24 +385,10 @@
                 "Ice Ruins East": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -445,14 +432,7 @@
                 "Chapel of the Elders": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -465,14 +445,7 @@
                 "Ruined Courtyard": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -497,14 +470,7 @@
                 "Phendrana Canyon": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -586,14 +552,7 @@
                 "Quarantine Cave": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -610,14 +569,7 @@
                 "Research Lab Hydra": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -647,14 +599,7 @@
                 "Quarantine Monitor": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -688,14 +633,7 @@
                 "Observatory": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -716,14 +654,7 @@
                 "Transport Access": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -830,14 +761,7 @@
                 "Control Tower": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -854,14 +778,7 @@
                 "Research Core": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -878,14 +795,7 @@
                 "Frost Cave": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1027,24 +937,10 @@
                 "Research Lab Aether": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1078,24 +974,10 @@
                 "Gravity Chamber": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1112,14 +994,7 @@
                 "Storage Cave": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1132,14 +1007,7 @@
                 "Security Cave": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -1312,14 +1180,7 @@
                 "Lava Lake": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1341,14 +1202,7 @@
                 "Triclops Pit": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1378,14 +1232,7 @@
                 "Storage Cavern": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1411,14 +1258,7 @@
                 "Transport Tunnel A": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -1426,14 +1266,7 @@
                 "Warrior Shrine": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1446,14 +1279,7 @@
                 "Shore Tunnel": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1470,24 +1296,10 @@
                 "Fiery Shores": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1543,14 +1355,7 @@
                 "Plasma Processing": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1576,14 +1381,7 @@
                 "Magmoor Workstation": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1687,14 +1485,7 @@
                 "Main Quarry": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1741,14 +1532,7 @@
                 "Security Access A": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1816,14 +1600,7 @@
                 "Storage Depot B": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1862,14 +1639,7 @@
                 "Storage Depot A": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1882,24 +1652,10 @@
                 "Elite Research": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1929,14 +1685,7 @@
                 "Elite Control Access": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -1983,14 +1732,7 @@
                 "Ventilation Shaft": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2007,14 +1749,7 @@
                 "Phazon Processing Center": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2061,14 +1796,7 @@
                 "Processing Center Access": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2111,14 +1839,7 @@
                 "Elite Quarters": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2135,14 +1856,7 @@
                 "Central Dynamo": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2198,14 +1912,7 @@
                 "Metroid Quarantine B": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2226,14 +1933,7 @@
                 "Metroid Quarantine A": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2285,14 +1985,7 @@
                 "Fungal Hall B": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2335,14 +2028,7 @@
                 "Phazon Mining Tunnel": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2359,14 +2045,7 @@
                 "Fungal Hall Access": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2404,14 +2083,7 @@
                 "Landing Site": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2449,14 +2121,7 @@
                 "Alcove": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2495,14 +2160,7 @@
                 "Frigate Crash Site": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2553,14 +2211,7 @@
                 "Overgrown Cavern": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2581,14 +2232,7 @@
                 "Root Cave": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2605,14 +2249,7 @@
                 "Artifact Temple": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -2642,14 +2279,7 @@
                 "Transport Tunnel B": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2662,14 +2292,7 @@
                 "Arbor Chamber": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2716,14 +2339,7 @@
                 "Cargo Freight Lift to Deck Gamma": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -2739,14 +2355,7 @@
                 "Biohazard Containment": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2799,14 +2408,7 @@
                 "Hydro Access Tunnel": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -2831,14 +2433,7 @@
                 "Great Tree Chamber": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -2859,14 +2454,7 @@
                 "Life Grove Tunnel": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -2901,24 +2489,10 @@
                 "Life Grove": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -2953,44 +2527,16 @@
                 "Main Plaza": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3037,14 +2583,7 @@
                 "Ruined Fountain": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -3052,34 +2591,13 @@
                 "Ruined Shrine": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3100,14 +2618,7 @@
                 "Vault": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -3115,14 +2626,7 @@
                 "Training Chamber": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3166,14 +2670,7 @@
                 "Ruined Nursery": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3190,14 +2687,7 @@
                 "Training Chamber Access": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3227,14 +2717,7 @@
                 "Magma Pool": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3251,14 +2734,7 @@
                 "Tower of Light": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3319,14 +2795,7 @@
                 "Tower Chamber": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3339,24 +2808,10 @@
                 "Ruined Gallery": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3381,14 +2836,7 @@
                 "Transport Access North": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3414,14 +2862,7 @@
                 "Gathering Hall": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3468,14 +2909,7 @@
                 "Hive Totem": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3492,24 +2926,10 @@
                 "Sunchamber": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3522,14 +2942,7 @@
                 "Watery Hall Access": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3559,24 +2972,10 @@
                 "Watery Hall": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3632,24 +3031,10 @@
                 "Dynamo": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3675,24 +3060,10 @@
                 "Burn Dome": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {}
@@ -3700,24 +3071,10 @@
                 "Furnace": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         },
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3752,14 +3109,7 @@
                 "Hall of the Elders": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3784,14 +3134,7 @@
                 "Crossway": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3834,14 +3177,7 @@
                 "Elder Chamber": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3889,14 +3225,7 @@
                 "Antechamber": {
                     "pickups": [
                         {
-                            "type": "Missile",
-                            "scanText": "Missile Expansion. Provides 5 Missiles",
-                            "hudmemoText": "Missile Expansion acquired!",
-                            "currIncrease": 5,
-                            "maxIncrease": 5,
-                            "respawn": false,
-                            "showIcon": false,
-                            "model": "Missile"
+                            "type": "Missile"
                         }
                     ],
                     "doors": {
@@ -3915,8 +3244,13 @@
                     "doors": {}
                 }
             }
+        },
+        "End Cinema": {
+            "rooms": {
+                "End Cinema": {
+                    
+                }
+            }
         }
-    },
-    "inputIso": "prime.iso",
-    "outputIso": "out.iso"
+    }
 }
