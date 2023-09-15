@@ -16,7 +16,7 @@ I might make a video on this if I'm feeling cute.
 
 1. Create a new folder for storing project files. For this example, we'll use `myhack/`
 
-1. Download and extract the latest `randomprime_patcher.exe` from the latest [py-randomprime release](https://github.com/randovania/py-randomprime/releases) and move it to `myhack/`
+1. Download and extract `randomprime_patcher.exe` from the latest [py-randomprime release](https://github.com/randovania/py-randomprime/releases) and move it to `myhack/`
 
 1. Download [patch.bat](../tools/patch.bat), [patch_quickplay.bat](../tools/patch_quickplay.bat) and [template.jsonc](../tools/template.jsonc) from the [tools](../tools/) directory and move them to `myhack/`
 
