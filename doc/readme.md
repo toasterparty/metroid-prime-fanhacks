@@ -36,7 +36,7 @@ The template file we downloaded during setup starts you with a world full of mis
 
 Double click `patch.bat` and select your input ISO. If patching succeeds, you'll see a newly created ISO whose name was defined by the `outputIso` property of your layout file. If patching failed, you will see an error message. Check this error message thoroughly as it may contains the line number of your `layout.jsonc` file where a mistake was made.
 
-For your convenience, `patch_quickplay.bat` has been provided which patches the same files, but it skips the main menu entirely and starts you directly in the starting room a full inventory.
+For your convenience, `patch_quickplay.bat` has been provided which patches the same files, but it skips the main menu entirely and starts you directly in the starting room with a full inventory.
 
 # Tips
 
