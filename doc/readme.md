@@ -58,6 +58,8 @@ For your convenience, `patch_quickplay.bat` has been provided which patches the 
 
 # Resources
 
+- [Randomprime API](https://toasterparty.github.io/randomprime/) Documentation
+
 - [Annotated Game Maps w/ Dock Indicies](https://github.com/toasterparty/randomprime/blob/randovania/doc/door_indicies/readme.md)
 
 - For the more advanced patcher features, [Prime World Editor](https://github.com/AxioDL/PrimeWorldEditor/releases) is requried to identify game objects. It also is the easiest way to visualize X/Y/Z coordinates for your object placement needs.
