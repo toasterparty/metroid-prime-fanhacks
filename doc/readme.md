@@ -2,7 +2,7 @@
 
 This guide will show you how I (toasterparty) make fanhacks. It's not the end-all definitive way by any means - but it works well enough for me.
 
-I might make a video on this if I'm feeling cute.
+# [🎞️ Video Guide 🎥](https://www.youtube.com/watch?v=vaLeWRAe9gs)
 
 # Requirements
 
