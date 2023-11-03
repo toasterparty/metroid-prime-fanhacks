@@ -1,6 +1,6 @@
 # Metroid Prime No Doors
 
-- [Download]()
+- [Download](https://github.com/toasterparty/metroid-prime-fanhacks/releases/download/metroid-prime-no-doors-v1.1/metroid-prime-no-doors-v1.1.zip)
 
 ## Credits
 
