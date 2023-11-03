@@ -1,0 +1,9 @@
+{
+    "$schema": "https://toasterparty.github.io/randomprime/randomprime.schema.json",
+    "outputIso": "Metroid Prime (No Doors).iso",
+    "forceVanillaLayout": true,
+    "gameConfig": {
+        "disableItemLoss": false,
+        "noDoors": true
+    }
+}
