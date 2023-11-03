@@ -1,6 +1,6 @@
 # Metroid Prime Underwater
 
-- [Download]()
+- [Download](https://github.com/toasterparty/metroid-prime-fanhacks/releases/download/metroid-prime-underwater-v1.0/metroid-prime-underwater-v1.0.zip)
 
 ## Credits
 
