@@ -16,6 +16,7 @@ goto :EOF
 :install
 set INPUT_ISO=%1
 set RUST_BACKTRACE=1
+echo Patching ISO...
 randomprime_patcher.exe --profile layout.jsonc --quickpatch --quickplay --skip_splash_screens --input-iso %INPUT_ISO% --starting-items 68719476735
 pause
 

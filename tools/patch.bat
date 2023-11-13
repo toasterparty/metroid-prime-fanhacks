@@ -15,6 +15,7 @@ goto :EOF
 
 :install
 set INPUT_ISO=%1
+echo Patching ISO...
 randomprime_patcher.exe --profile layout.jsonc --input-iso %INPUT_ISO%
 pause
 
