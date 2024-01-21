@@ -1,5 +1,5 @@
 {
-    "$schema": "https://toasterparty.github.io/randomprime/randomprime.schema.json",
+    "$schema": "https://randovania.github.io/randomprime/randomprime.schema.json",
     "outputIso": "my_romhack.iso",
     "preferences": {
         "qolGameBreaking": true,
@@ -8,7 +8,7 @@
         "qolGeneral": true,
         "visibleBoundingBox": false,
         "qolCutscenes": "Skippable",
-        "mapDefaultState": "Visible",
+        "mapDefaultState": "Always",
         "artifactHintBehavior": "Default",
         "automaticCrashScreen": true,
         "quickplay": false,
