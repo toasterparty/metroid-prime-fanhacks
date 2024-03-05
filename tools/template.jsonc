@@ -1,5 +1,5 @@
 {
-    "$schema": "https://randovania.github.io/randomprime/randomprime.schema.json",
+    "$schema": "https://randovania.org/randomprime/randomprime.schema.json",
     "outputIso": "my_romhack.iso",
     "preferences": {
         "qolGameBreaking": true,
@@ -3248,7 +3248,7 @@
         "End Cinema": {
             "rooms": {
                 "End Cinema": {
-                    
+
                 }
             }
         }

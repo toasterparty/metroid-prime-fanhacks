@@ -28,7 +28,7 @@ You now have everything you need to develop a new romhack.
 
 First, open `layout.jsonc` with Visual Studio code.
 
-You'll need to familiarize yourself with the API format used by the randomprime patcher. You can do this visiting the [Randomprime API](https://randovania.github.io/randomprime/) documentation site. You can also take advantage of Visual Studio's enriched text viewer which utilizes randomprime's JSON schema. Simply mouse over any property in the `layout.jsonc` file and a tooltip will appear describing the purpose of that value. You can also use the `CTRL`+`Space` keyboard shortcut to browse available properties and their values.
+You'll need to familiarize yourself with the API format used by the randomprime patcher. You can do this visiting the [Randomprime API](https://randovania.org/randomprime/) documentation site. You can also take advantage of Visual Studio's enriched text viewer which utilizes randomprime's JSON schema. Simply mouse over any property in the `layout.jsonc` file and a tooltip will appear describing the purpose of that value. You can also use the `CTRL`+`Space` keyboard shortcut to browse available properties and their values.
 
 The template file we downloaded during setup starts you with a world full of missile expansions, blue doors, no blast shields, vanilla elevators, and is configured with "normal" settings. It's up to you to edit the text in this file to place pickups, set doors, change configuration and more.
 
@@ -58,7 +58,7 @@ For your convenience, `patch_quickplay.bat` has been provided which patches the 
 
 # Resources
 
-- [Randomprime API](https://randovania.github.io/randomprime/) Documentation
+- [Randomprime API](https://randovania.org/randomprime/) Documentation
 
 - [Annotated Game Maps w/ Dock Indicies](https://github.com/randovania/randomprime/blob/randovania/doc/door_indicies/readme.md)
 

@@ -1,5 +1,5 @@
 {
-    "$schema": "https://randovania.github.io/randomprime/randomprime.schema.json",
+    "$schema": "https://randovania.org/randomprime/randomprime.schema.json",
     "outputIso": "Metroid Prime (No Doors).iso",
     "forceVanillaLayout": true,
     "gameConfig": {
