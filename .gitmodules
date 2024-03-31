@@ -2,6 +2,6 @@
 	path = hacks/New Path
 	url = git@github.com:JeffGainsNGames/MP1-New-Path.git
     branch = main
-[submodule "hacks/metroid-fool"]
-	path = hacks/metroid-fool
+[submodule "hacks/Metroid Fool"]
+	path = hacks/Metroid Fool
 	url = https://github.com/toasterparty/metroid-fool.git
