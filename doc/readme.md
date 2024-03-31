@@ -76,7 +76,7 @@ For your convenience, `patch_quickplay.bat` has been provided which patches the 
 
 - [Primewatch](https://github.com/MetroidPrimeModding/primewatch2/releases)
 
-- [Trial of Strength](https://github.com/toasterparty/metroid-prime-fanhacks/blob/main/hacks/Trial%20of%20Strength/layout.json) is the fanhack which uses the most patcher features to-date. While not comprehensive, it makes a good reference if you're not understanding something. Similarly, [Prime Practice World](https://github.com/toasterparty/prime-practice-world/blob/main/prime-practice-world.json) uses a lot of features.
+- [Metroid Fool](https://github.com/toasterparty/metroid-fool/blob/main/layout.jsonc) is the fanhack which uses the most patcher features to-date. It makes a good reference if you're wanting real example to help you understand something. Similarly, [Prime Practice World](https://github.com/toasterparty/prime-practice-world/blob/main/prime-practice-world.json) uses a lot of features.
 
 # Distribution
 
