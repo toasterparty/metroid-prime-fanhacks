@@ -40,6 +40,8 @@ For your convenience, `patch_quickplay.bat` has been provided which patches the 
 
 # Tips
 
+- [Read my romhacking wisdom article](https://gist.github.com/toasterparty/65311bb8344c92176295f77b445d591d)
+
 - Make backups. It's easy to make a big mistake when you're working in one file for weeks on end.
 
 - The JSON format used by randomprime supports comments `//`. Use them to make notes for yourself
