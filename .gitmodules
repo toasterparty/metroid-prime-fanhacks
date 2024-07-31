@@ -6,3 +6,6 @@
 	path = hacks/Metroid Fool
 	url = https://github.com/toasterparty/metroid-fool.git
     branch = main
+[submodule "hacks/Vanilla-Like/Metroid Prime Museum"]
+	path = hacks/Vanilla-Like/Metroid Prime Museum
+	url = https://github.com/toasterparty/metroid-prime-museum.git
