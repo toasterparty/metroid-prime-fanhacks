@@ -9,3 +9,6 @@
 [submodule "hacks/Vanilla-Like/Metroid Prime Museum"]
 	path = hacks/Vanilla-Like/Metroid Prime Museum
 	url = https://github.com/toasterparty/metroid-prime-museum.git
+[submodule "hacks/Vanilla-Like/Unhundred%"]
+	path = hacks/Vanilla-Like/Unhundred%
+	url = https://github.com/JeffGainsNGames/mp1-unhundred
